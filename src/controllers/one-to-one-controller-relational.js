@@ -28,4 +28,4 @@ const store = async (req, res) => {
         res.send(e)
     }
 }
-export { index, store, storeNew }
+export { index, store }
